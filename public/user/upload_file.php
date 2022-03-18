@@ -1,4 +1,3 @@
-
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -25,6 +24,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <body>
 <div class="header" id="ban">
 		<div class="container">
+			<div class="head-left wow fadeInLeft animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
+			</div>
 			<div class="header_right wow fadeInLeft animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
 			<nav class="navbar navbar-default">
 				<!-- Brand and toggle get grouped for better mobile display -->
@@ -41,11 +42,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
 					<nav class="link-effect-7" id="link-effect-7">
 						<ul class="nav navbar-nav">
-							<li><a href="index.html">Home</a></li>
-							<li class="active act"><a href="about.html">About</a></li>
-							<li><a href="services.html">Services</a></li>
-							<li><a href="Registration_Login/index.html">Registration/Login</a></li>
-							<li><a href="login.html">Admin Login</a></li>
+							<li><a href="index.php">Home</a></li>
+							<li><a href="about.html">About</a></li>
+							<li class="active act"><a href="upload_file.html">Upload File</a></li>
+							<li><a href="view_file.php">View Uploaded File</a></li>
+							<li><a href="view_request_key.php">View Request Key</a></li>
+							<li><a href="download_file.php">Downloaded File</a></li>
+							<li><a href="phpScript/logout.php">Logout</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -60,19 +63,24 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			<div class="logo wow fadeInDown"  data-wow-duration=".8s" data-wow-delay=".2s">
 				<h1><a href="index.php">Secure File Storage on Cloud Using Hybrid Crytography</a></h1>
-				<p><label class="of"></label>LET'S MAKE A PERFECT STYLE<label class="on"></label></p>
+				<p style="font-size:20px;"><label class="of"></label>Upload File<label class="on"></label></p>
 			</div>
 		</div>
 	</div>
 <!-- banner -->
-<div class="banner">
-<div class="container">	
 
-	</div>
+<div>
+	<br><center>
+		<br><h3><form class="from-group"action="phpScript/upload.php" method="post" enctype="multipart/form-data" style="color:red">
+		  <h3>Select Any Type File to upload:</h3><br>
+		  <br><input type="file" name="file" id="fileToUpload"><br/><br/>
+		  <input type="submit" value="Upload Image" name="submit" style="color:green">
+		</form></h3>
+	</center>
 </div>
 	<div class="copyright wow fadeInDown"  data-wow-duration=".8s" data-wow-delay=".2s">
 				<div class="container">
-					<p>© 2022 Design by Cloud9</p>
+					<p>© 2022 All rights reserved | Design by Cloud9</p>
 				</div>
 			</div>
 </body>

@@ -25,6 +25,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <body>
 <div class="header" id="ban">
 		<div class="container">
+			<div class="head-left wow fadeInLeft animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
+			</div>
 			<div class="header_right wow fadeInLeft animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
 			<nav class="navbar navbar-default">
 				<!-- Brand and toggle get grouped for better mobile display -->
@@ -41,11 +43,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
 					<nav class="link-effect-7" id="link-effect-7">
 						<ul class="nav navbar-nav">
-							<li><a href="index.html">Home</a></li>
-							<li class="active act"><a href="about.html">About</a></li>
-							<li><a href="services.html">Services</a></li>
-							<li><a href="Registration_Login/index.html">Registration/Login</a></li>
-							<li><a href="login.html">Admin Login</a></li>
+							<li><a href="index.php">Home</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="upload_file.php">Upload File</a></li>
+							<li><a href="view_file.php">View Uploadd File</a></li>
+							<li class="active act"><a href="view_request_key.php">View Request Key</a></li>
+							<li><a href="download_file.php">Downloaded File</a></li>
+							<li><a href="phpScript/logout.php">Logout</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -65,14 +69,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	</div>
 <!-- banner -->
+
 <div class="banner">
 <div class="container">	
-
+		<h2>Contrary to popular belief, Lorem Ipsum simply</h2>
+		<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
 	</div>
 </div>
 	<div class="copyright wow fadeInDown"  data-wow-duration=".8s" data-wow-delay=".2s">
 				<div class="container">
-					<p>© 2022 Design by Cloud9</p>
+					<p>© 2022 All rights reserved | Design by Cloud9</p>
 				</div>
 			</div>
 </body>
